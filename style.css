@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('bgImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outer-container {
+    position: relative;
+    bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+.semi-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.semi-container span {
+    font-weight: normal;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+
+#days, #hrs, #mins, #secs {
+    font-size: 3rem;
+}
